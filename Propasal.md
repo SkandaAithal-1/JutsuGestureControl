@@ -19,3 +19,8 @@ Imagine being able to control drone using intuitive hand gestures. This is the v
 - **1 week** : Implementing this on simulation.
 - **2 weeks** : Usage of static camera to control the drone.
 - **3 weeks** : Using an on-board camera to achieve the controls.
+
+## Team 
+- **Name** : **Jutsu**
+- **Members** : **Aryan Agarwal**, **Shayon Mitra**, **Aritra Biswas**, **Aaditya**, **Sri Sai**, **Skanda Aithal**
+

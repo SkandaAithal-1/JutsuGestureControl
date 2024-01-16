@@ -6,7 +6,7 @@ This is the repository created for containing all the work related to the Gestur
 
 - [Mediapipe Solutions](https://developers.google.com/mediapipe/solutions/guide)
 
-## Contribution Guidlines
+## Contribution Guidelines
 
 - Good Object Oriented Programming is to be implemented.
 - To start the work on anything, follow this procedure -
