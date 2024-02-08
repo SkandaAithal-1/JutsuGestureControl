@@ -1,0 +1,16 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/square.dir/src/square.cpp.o[0m
+In file included from /opt/ros/noetic/include/ros/subscription_callback_helper.h:35,
+                 from /opt/ros/noetic/include/ros/subscriber.h:33,
+                 from /opt/ros/noetic/include/ros/node_handle.h:33,
+                 from /opt/ros/noetic/include/ros/ros.h:45,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/include/drone_com/gnc_functions.hpp:14,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:1:
+/opt/ros/noetic/include/ros/parameter_adapter.h: In instantiation of ‘static ros::ParameterAdapter<M>::Parameter ros::ParameterAdapter<M>::getParameter(const Event&) [with M = std_msgs::Int16_<std::allocator<void> >&; ros::ParameterAdapter<M>::Parameter = std_msgs::Int16_<std::allocator<void> >&; ros::ParameterAdapter<M>::Event = ros::MessageEvent<const std_msgs::Int16_<std::allocator<void> > >; typename boost::remove_reference<typename boost::remove_const<M>::type>::type = std_msgs::Int16_<std::allocator<void> >]’:
+/opt/ros/noetic/include/ros/subscription_callback_helper.h:144:48:   required from ‘void ros::SubscriptionCallbackHelperT<P, Enabled>::call(ros::SubscriptionCallbackHelperCallParams&) [with P = std_msgs::Int16_<std::allocator<void> >&; Enabled = void]’
+/opt/ros/noetic/include/ros/subscription_callback_helper.h:141:16:   required from here
+/opt/ros/noetic/include/ros/parameter_adapter.h:78:30: error: binding reference of type ‘ros::ParameterAdapter<std_msgs::Int16_<std::allocator<void> >&>::Parameter’ {aka ‘std_msgs::Int16_<std::allocator<void> >&’} to ‘const std_msgs::Int16_<std::allocator<void> >’ discards qualifiers
+   78 |     return *event.getMessage();
+      |                              ^
+make[2]: *** [CMakeFiles/square.dir/build.make:63: CMakeFiles/square.dir/src/square.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:210: CMakeFiles/square.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

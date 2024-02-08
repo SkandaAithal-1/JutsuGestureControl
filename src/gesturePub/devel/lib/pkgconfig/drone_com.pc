@@ -1,0 +1,1 @@
+/home/skanda/Documents/workspace/gesturePub/devel/.private/drone_com/lib/pkgconfig/drone_com.pc

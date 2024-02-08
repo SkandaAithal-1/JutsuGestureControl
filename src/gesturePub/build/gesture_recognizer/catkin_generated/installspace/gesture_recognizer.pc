@@ -1,0 +1,8 @@
+prefix=/home/skanda/Documents/workspace/gesturePub/install
+
+Name: gesture_recognizer
+Description: Description of gesture_recognizer
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

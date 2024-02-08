@@ -1,0 +1,1 @@
+/home/skanda/Documents/workspace/gesturePub/devel/.private/gesturePublisher/share/gesturePublisher/cmake/gesturePublisherConfig.cmake

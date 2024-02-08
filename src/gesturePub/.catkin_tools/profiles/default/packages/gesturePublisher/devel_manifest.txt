@@ -1,0 +1,5 @@
+gesturePublisher
+/home/skanda/Documents/workspace/gesturePub/devel/.private/gesturePublisher/cmake.lock /home/skanda/Documents/workspace/gesturePub/devel/./cmake.lock
+/home/skanda/Documents/workspace/gesturePub/devel/.private/gesturePublisher/share/gesturePublisher/cmake/gesturePublisherConfig-version.cmake /home/skanda/Documents/workspace/gesturePub/devel/share/gesturePublisher/cmake/gesturePublisherConfig-version.cmake
+/home/skanda/Documents/workspace/gesturePub/devel/.private/gesturePublisher/share/gesturePublisher/cmake/gesturePublisherConfig.cmake /home/skanda/Documents/workspace/gesturePub/devel/share/gesturePublisher/cmake/gesturePublisherConfig.cmake
+/home/skanda/Documents/workspace/gesturePub/devel/.private/gesturePublisher/lib/pkgconfig/gesturePublisher.pc /home/skanda/Documents/workspace/gesturePub/devel/lib/pkgconfig/gesturePublisher.pc

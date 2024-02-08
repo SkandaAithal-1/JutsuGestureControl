@@ -1,0 +1,8 @@
+prefix=/home/skanda/Documents/workspace/gesturePub/devel/.private/gesturePublisher
+
+Name: gesturePublisher
+Description: Description of gesturePublisher
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

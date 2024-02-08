@@ -1,0 +1,8 @@
+prefix=/home/skanda/Documents/workspace/gesturePub/install
+
+Name: drone_com
+Description: Description of drone_com
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,576 @@
+/home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp: In function ‘void command(std_msgs::Int16&)’:
+/home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:8:11: error: no match for ‘operator==’ (operand types are ‘std_msgs::Int16’ {aka ‘std_msgs::Int16_<std::allocator<void> >’} and ‘int’)
+    8 |   if (msg == 1){
+      |       ~~~ ^~ ~
+      |       |      |
+      |       |      int
+      |       std_msgs::Int16 {aka std_msgs::Int16_<std::allocator<void> >}
+In file included from /home/skanda/catkin_ws/devel/include/mavros_msgs/GlobalPositionTarget.h:18,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/include/drone_com/gnc_functions.hpp:6,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:1:
+/opt/ros/noetic/include/std_msgs/Header.h:76:6: note: candidate: ‘template<class ContainerAllocator1, class ContainerAllocator2> bool std_msgs::operator==(const std_msgs::Header_<ContainerAllocator>&, const std_msgs::Header_<ContainerAllocator2>&)’
+   76 | bool operator==(const ::std_msgs::Header_<ContainerAllocator1> & lhs, const ::std_msgs::Header_<ContainerAllocator2> & rhs)
+      |      ^~~~~~~~
+/opt/ros/noetic/include/std_msgs/Header.h:76:6: note:   template argument deduction/substitution failed:
+/home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:8:14: note:   ‘std_msgs::Int16’ {aka ‘std_msgs::Int16_<std::allocator<void> >’} is not derived from ‘const std_msgs::Header_<ContainerAllocator>’
+    8 |   if (msg == 1){
+      |              ^
+In file included from /home/skanda/Documents/workspace/gesturePub/src/drone_com/include/drone_com/gnc_functions.hpp:15,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:1:
+/opt/ros/noetic/include/std_msgs/Float64.h:66:6: note: candidate: ‘template<class ContainerAllocator1, class ContainerAllocator2> bool std_msgs::operator==(const std_msgs::Float64_<ContainerAllocator>&, const std_msgs::Float64_<ContainerAllocator2>&)’
+   66 | bool operator==(const ::std_msgs::Float64_<ContainerAllocator1> & lhs, const ::std_msgs::Float64_<ContainerAllocator2> & rhs)
+      |      ^~~~~~~~
+/opt/ros/noetic/include/std_msgs/Float64.h:66:6: note:   template argument deduction/substitution failed:
+/home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:8:14: note:   ‘std_msgs::Int16’ {aka ‘std_msgs::Int16_<std::allocator<void> >’} is not derived from ‘const std_msgs::Float64_<ContainerAllocator>’
+    8 |   if (msg == 1){
+      |              ^
+In file included from /home/skanda/Documents/workspace/gesturePub/src/drone_com/include/drone_com/gnc_functions.hpp:16,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:1:
+/opt/ros/noetic/include/std_msgs/String.h:66:6: note: candidate: ‘template<class ContainerAllocator1, class ContainerAllocator2> bool std_msgs::operator==(const std_msgs::String_<ContainerAllocator>&, const std_msgs::String_<ContainerAllocator2>&)’
+   66 | bool operator==(const ::std_msgs::String_<ContainerAllocator1> & lhs, const ::std_msgs::String_<ContainerAllocator2> & rhs)
+      |      ^~~~~~~~
+/opt/ros/noetic/include/std_msgs/String.h:66:6: note:   template argument deduction/substitution failed:
+/home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:8:14: note:   ‘std_msgs::Int16’ {aka ‘std_msgs::Int16_<std::allocator<void> >’} is not derived from ‘const std_msgs::String_<ContainerAllocator>’
+    8 |   if (msg == 1){
+      |              ^
+In file included from /home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:4:
+/opt/ros/noetic/include/std_msgs/Int16.h:66:6: note: candidate: ‘template<class ContainerAllocator1, class ContainerAllocator2> bool std_msgs::operator==(const std_msgs::Int16_<ContainerAllocator>&, const std_msgs::Int16_<ContainerAllocator2>&)’
+   66 | bool operator==(const ::std_msgs::Int16_<ContainerAllocator1> & lhs, const ::std_msgs::Int16_<ContainerAllocator2> & rhs)
+      |      ^~~~~~~~
+/opt/ros/noetic/include/std_msgs/Int16.h:66:6: note:   template argument deduction/substitution failed:
+/home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:8:14: note:   mismatched types ‘const std_msgs::Int16_<ContainerAllocator2>’ and ‘int’
+    8 |   if (msg == 1){
+      |              ^
+In file included from /usr/include/c++/9/bits/stl_algobase.h:64,
+                 from /usr/include/c++/9/bits/char_traits.h:39,
+                 from /usr/include/c++/9/string:40,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOLRequest.h:9,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOL.h:11,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/include/drone_com/gnc_functions.hpp:1,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:1:
+/usr/include/c++/9/bits/stl_pair.h:448:5: note: candidate: ‘template<class _T1, class _T2> constexpr bool std::operator==(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)’
+  448 |     operator==(const pair<_T1, _T2>& __x, const pair<_T1, _T2>& __y)
+      |     ^~~~~~~~
+/usr/include/c++/9/bits/stl_pair.h:448:5: note:   template argument deduction/substitution failed:
+/home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:8:14: note:   ‘std_msgs::Int16’ {aka ‘std_msgs::Int16_<std::allocator<void> >’} is not derived from ‘const std::pair<_T1, _T2>’
+    8 |   if (msg == 1){
+      |              ^
+In file included from /usr/include/c++/9/bits/stl_algobase.h:67,
+                 from /usr/include/c++/9/bits/char_traits.h:39,
+                 from /usr/include/c++/9/string:40,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOLRequest.h:9,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOL.h:11,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/include/drone_com/gnc_functions.hpp:1,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:1:
+/usr/include/c++/9/bits/stl_iterator.h:325:5: note: candidate: ‘template<class _Iterator> bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)’
+  325 |     operator==(const reverse_iterator<_Iterator>& __x,
+      |     ^~~~~~~~
+/usr/include/c++/9/bits/stl_iterator.h:325:5: note:   template argument deduction/substitution failed:
+/home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:8:14: note:   ‘std_msgs::Int16’ {aka ‘std_msgs::Int16_<std::allocator<void> >’} is not derived from ‘const std::reverse_iterator<_Iterator>’
+    8 |   if (msg == 1){
+      |              ^
+In file included from /usr/include/c++/9/bits/stl_algobase.h:67,
+                 from /usr/include/c++/9/bits/char_traits.h:39,
+                 from /usr/include/c++/9/string:40,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOLRequest.h:9,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOL.h:11,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/include/drone_com/gnc_functions.hpp:1,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:1:
+/usr/include/c++/9/bits/stl_iterator.h:363:5: note: candidate: ‘template<class _IteratorL, class _IteratorR> bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)’
+  363 |     operator==(const reverse_iterator<_IteratorL>& __x,
+      |     ^~~~~~~~
+/usr/include/c++/9/bits/stl_iterator.h:363:5: note:   template argument deduction/substitution failed:
+/home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:8:14: note:   ‘std_msgs::Int16’ {aka ‘std_msgs::Int16_<std::allocator<void> >’} is not derived from ‘const std::reverse_iterator<_Iterator>’
+    8 |   if (msg == 1){
+      |              ^
+In file included from /usr/include/c++/9/bits/stl_algobase.h:67,
+                 from /usr/include/c++/9/bits/char_traits.h:39,
+                 from /usr/include/c++/9/string:40,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOLRequest.h:9,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOL.h:11,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/include/drone_com/gnc_functions.hpp:1,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:1:
+/usr/include/c++/9/bits/stl_iterator.h:1136:5: note: candidate: ‘template<class _IteratorL, class _IteratorR> bool std::operator==(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)’
+ 1136 |     operator==(const move_iterator<_IteratorL>& __x,
+      |     ^~~~~~~~
+/usr/include/c++/9/bits/stl_iterator.h:1136:5: note:   template argument deduction/substitution failed:
+/home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:8:14: note:   ‘std_msgs::Int16’ {aka ‘std_msgs::Int16_<std::allocator<void> >’} is not derived from ‘const std::move_iterator<_IteratorL>’
+    8 |   if (msg == 1){
+      |              ^
+In file included from /usr/include/c++/9/bits/stl_algobase.h:67,
+                 from /usr/include/c++/9/bits/char_traits.h:39,
+                 from /usr/include/c++/9/string:40,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOLRequest.h:9,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOL.h:11,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/include/drone_com/gnc_functions.hpp:1,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:1:
+/usr/include/c++/9/bits/stl_iterator.h:1142:5: note: candidate: ‘template<class _Iterator> bool std::operator==(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorL>&)’
+ 1142 |     operator==(const move_iterator<_Iterator>& __x,
+      |     ^~~~~~~~
+/usr/include/c++/9/bits/stl_iterator.h:1142:5: note:   template argument deduction/substitution failed:
+/home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:8:14: note:   ‘std_msgs::Int16’ {aka ‘std_msgs::Int16_<std::allocator<void> >’} is not derived from ‘const std::move_iterator<_IteratorL>’
+    8 |   if (msg == 1){
+      |              ^
+In file included from /usr/include/c++/9/bits/char_traits.h:40,
+                 from /usr/include/c++/9/string:40,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOLRequest.h:9,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOL.h:11,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/include/drone_com/gnc_functions.hpp:1,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:1:
+/usr/include/c++/9/bits/postypes.h:222:5: note: candidate: ‘template<class _StateT> bool std::operator==(const std::fpos<_StateT>&, const std::fpos<_StateT>&)’
+  222 |     operator==(const fpos<_StateT>& __lhs, const fpos<_StateT>& __rhs)
+      |     ^~~~~~~~
+/usr/include/c++/9/bits/postypes.h:222:5: note:   template argument deduction/substitution failed:
+/home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:8:14: note:   ‘std_msgs::Int16’ {aka ‘std_msgs::Int16_<std::allocator<void> >’} is not derived from ‘const std::fpos<_StateT>’
+    8 |   if (msg == 1){
+      |              ^
+In file included from /usr/include/c++/9/string:41,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOLRequest.h:9,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOL.h:11,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/include/drone_com/gnc_functions.hpp:1,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:1:
+/usr/include/c++/9/bits/allocator.h:167:5: note: candidate: ‘template<class _T1, class _T2> bool std::operator==(const std::allocator<_CharT>&, const std::allocator<_T2>&)’
+  167 |     operator==(const allocator<_T1>&, const allocator<_T2>&)
+      |     ^~~~~~~~
+/usr/include/c++/9/bits/allocator.h:167:5: note:   template argument deduction/substitution failed:
+/home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:8:14: note:   ‘std_msgs::Int16’ {aka ‘std_msgs::Int16_<std::allocator<void> >’} is not derived from ‘const std::allocator<_CharT>’
+    8 |   if (msg == 1){
+      |              ^
+In file included from /usr/include/c++/9/string:55,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOLRequest.h:9,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOL.h:11,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/include/drone_com/gnc_functions.hpp:1,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:1:
+/usr/include/c++/9/bits/basic_string.h:6144:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)’
+ 6144 |     operator==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+      |     ^~~~~~~~
+/usr/include/c++/9/bits/basic_string.h:6144:5: note:   template argument deduction/substitution failed:
+/home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:8:14: note:   ‘std_msgs::Int16’ {aka ‘std_msgs::Int16_<std::allocator<void> >’} is not derived from ‘const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’
+    8 |   if (msg == 1){
+      |              ^
+In file included from /usr/include/c++/9/string:55,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOLRequest.h:9,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOL.h:11,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/include/drone_com/gnc_functions.hpp:1,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:1:
+/usr/include/c++/9/bits/basic_string.h:6152:5: note: candidate: ‘template<class _CharT> typename __gnu_cxx::__enable_if<std::__is_char<_Tp>::__value, bool>::__type std::operator==(const std::__cxx11::basic_string<_CharT>&, const std::__cxx11::basic_string<_CharT>&)’
+ 6152 |     operator==(const basic_string<_CharT>& __lhs,
+      |     ^~~~~~~~
+/usr/include/c++/9/bits/basic_string.h:6152:5: note:   template argument deduction/substitution failed:
+/home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:8:14: note:   ‘std_msgs::Int16’ {aka ‘std_msgs::Int16_<std::allocator<void> >’} is not derived from ‘const std::__cxx11::basic_string<_CharT>’
+    8 |   if (msg == 1){
+      |              ^
+In file included from /usr/include/c++/9/string:55,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOLRequest.h:9,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOL.h:11,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/include/drone_com/gnc_functions.hpp:1,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:1:
+/usr/include/c++/9/bits/basic_string.h:6166:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const _CharT*, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)’
+ 6166 |     operator==(const _CharT* __lhs,
+      |     ^~~~~~~~
+/usr/include/c++/9/bits/basic_string.h:6166:5: note:   template argument deduction/substitution failed:
+/home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:8:14: note:   mismatched types ‘const _CharT*’ and ‘std_msgs::Int16_<std::allocator<void> >’
+    8 |   if (msg == 1){
+      |              ^
+In file included from /usr/include/c++/9/string:55,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOLRequest.h:9,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOL.h:11,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/include/drone_com/gnc_functions.hpp:1,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:1:
+/usr/include/c++/9/bits/basic_string.h:6178:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)’
+ 6178 |     operator==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+      |     ^~~~~~~~
+/usr/include/c++/9/bits/basic_string.h:6178:5: note:   template argument deduction/substitution failed:
+/home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:8:14: note:   ‘std_msgs::Int16’ {aka ‘std_msgs::Int16_<std::allocator<void> >’} is not derived from ‘const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’
+    8 |   if (msg == 1){
+      |              ^
+In file included from /usr/include/c++/9/vector:67,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOLRequest.h:10,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOL.h:11,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/include/drone_com/gnc_functions.hpp:1,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:1:
+/usr/include/c++/9/bits/stl_vector.h:1888:5: note: candidate: ‘template<class _Tp, class _Alloc> bool std::operator==(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)’
+ 1888 |     operator==(const vector<_Tp, _Alloc>& __x, const vector<_Tp, _Alloc>& __y)
+      |     ^~~~~~~~
+/usr/include/c++/9/bits/stl_vector.h:1888:5: note:   template argument deduction/substitution failed:
+/home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:8:14: note:   ‘std_msgs::Int16’ {aka ‘std_msgs::Int16_<std::allocator<void> >’} is not derived from ‘const std::vector<_Tp, _Alloc>’
+    8 |   if (msg == 1){
+      |              ^
+In file included from /usr/include/c++/9/tuple:39,
+                 from /usr/include/c++/9/bits/unique_ptr.h:37,
+                 from /usr/include/c++/9/memory:80,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOLRequest.h:11,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOL.h:11,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/include/drone_com/gnc_functions.hpp:1,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:1:
+/usr/include/c++/9/array:252:5: note: candidate: ‘template<class _Tp, long unsigned int _Nm> bool std::operator==(const std::array<_Tp, _Nm>&, const std::array<_Tp, _Nm>&)’
+  252 |     operator==(const array<_Tp, _Nm>& __one, const array<_Tp, _Nm>& __two)
+      |     ^~~~~~~~
+/usr/include/c++/9/array:252:5: note:   template argument deduction/substitution failed:
+/home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:8:14: note:   ‘std_msgs::Int16’ {aka ‘std_msgs::Int16_<std::allocator<void> >’} is not derived from ‘const std::array<_Tp, _Nm>’
+    8 |   if (msg == 1){
+      |              ^
+In file included from /usr/include/c++/9/bits/unique_ptr.h:37,
+                 from /usr/include/c++/9/memory:80,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOLRequest.h:11,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOL.h:11,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/include/drone_com/gnc_functions.hpp:1,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:1:
+/usr/include/c++/9/tuple:1419:5: note: candidate: ‘template<class ... _TElements, class ... _UElements> constexpr bool std::operator==(const std::tuple<_Tps ...>&, const std::tuple<_Elements ...>&)’
+ 1419 |     operator==(const tuple<_TElements...>& __t,
+      |     ^~~~~~~~
+/usr/include/c++/9/tuple:1419:5: note:   template argument deduction/substitution failed:
+/home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:8:14: note:   ‘std_msgs::Int16’ {aka ‘std_msgs::Int16_<std::allocator<void> >’} is not derived from ‘const std::tuple<_Tps ...>’
+    8 |   if (msg == 1){
+      |              ^
+In file included from /usr/include/c++/9/memory:80,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOLRequest.h:11,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOL.h:11,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/include/drone_com/gnc_functions.hpp:1,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:1:
+/usr/include/c++/9/bits/unique_ptr.h:715:5: note: candidate: ‘template<class _Tp, class _Dp, class _Up, class _Ep> bool std::operator==(const std::unique_ptr<_Tp, _Dp>&, const std::unique_ptr<_Up, _Ep>&)’
+  715 |     operator==(const unique_ptr<_Tp, _Dp>& __x,
+      |     ^~~~~~~~
+/usr/include/c++/9/bits/unique_ptr.h:715:5: note:   template argument deduction/substitution failed:
+/home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:8:14: note:   ‘std_msgs::Int16’ {aka ‘std_msgs::Int16_<std::allocator<void> >’} is not derived from ‘const std::unique_ptr<_Tp, _Dp>’
+    8 |   if (msg == 1){
+      |              ^
+In file included from /usr/include/c++/9/memory:80,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOLRequest.h:11,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOL.h:11,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/include/drone_com/gnc_functions.hpp:1,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:1:
+/usr/include/c++/9/bits/unique_ptr.h:721:5: note: candidate: ‘template<class _Tp, class _Dp> bool std::operator==(const std::unique_ptr<_Tp, _Dp>&, std::nullptr_t)’
+  721 |     operator==(const unique_ptr<_Tp, _Dp>& __x, nullptr_t) noexcept
+      |     ^~~~~~~~
+/usr/include/c++/9/bits/unique_ptr.h:721:5: note:   template argument deduction/substitution failed:
+/home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:8:14: note:   ‘std_msgs::Int16’ {aka ‘std_msgs::Int16_<std::allocator<void> >’} is not derived from ‘const std::unique_ptr<_Tp, _Dp>’
+    8 |   if (msg == 1){
+      |              ^
+In file included from /usr/include/c++/9/memory:80,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOLRequest.h:11,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOL.h:11,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/include/drone_com/gnc_functions.hpp:1,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:1:
+/usr/include/c++/9/bits/unique_ptr.h:726:5: note: candidate: ‘template<class _Tp, class _Dp> bool std::operator==(std::nullptr_t, const std::unique_ptr<_Tp, _Dp>&)’
+  726 |     operator==(nullptr_t, const unique_ptr<_Tp, _Dp>& __x) noexcept
+      |     ^~~~~~~~
+/usr/include/c++/9/bits/unique_ptr.h:726:5: note:   template argument deduction/substitution failed:
+/home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:8:14: note:   mismatched types ‘const std::unique_ptr<_Tp, _Dp>’ and ‘int’
+    8 |   if (msg == 1){
+      |              ^
+In file included from /usr/include/c++/9/bits/shared_ptr.h:52,
+                 from /usr/include/c++/9/memory:81,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOLRequest.h:11,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOL.h:11,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/include/drone_com/gnc_functions.hpp:1,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:1:
+/usr/include/c++/9/bits/shared_ptr_base.h:1412:5: note: candidate: ‘template<class _Tp1, class _Tp2, __gnu_cxx::_Lock_policy _Lp> bool std::operator==(const std::__shared_ptr<_Tp1, _Lp>&, const std::__shared_ptr<_Tp2, _Lp>&)’
+ 1412 |     operator==(const __shared_ptr<_Tp1, _Lp>& __a,
+      |     ^~~~~~~~
+/usr/include/c++/9/bits/shared_ptr_base.h:1412:5: note:   template argument deduction/substitution failed:
+/home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:8:14: note:   ‘std_msgs::Int16’ {aka ‘std_msgs::Int16_<std::allocator<void> >’} is not derived from ‘const std::__shared_ptr<_Tp1, _Lp>’
+    8 |   if (msg == 1){
+      |              ^
+In file included from /usr/include/c++/9/bits/shared_ptr.h:52,
+                 from /usr/include/c++/9/memory:81,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOLRequest.h:11,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOL.h:11,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/include/drone_com/gnc_functions.hpp:1,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:1:
+/usr/include/c++/9/bits/shared_ptr_base.h:1418:5: note: candidate: ‘template<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::operator==(const std::__shared_ptr<_Tp, _Lp>&, std::nullptr_t)’
+ 1418 |     operator==(const __shared_ptr<_Tp, _Lp>& __a, nullptr_t) noexcept
+      |     ^~~~~~~~
+/usr/include/c++/9/bits/shared_ptr_base.h:1418:5: note:   template argument deduction/substitution failed:
+/home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:8:14: note:   ‘std_msgs::Int16’ {aka ‘std_msgs::Int16_<std::allocator<void> >’} is not derived from ‘const std::__shared_ptr<_Tp, _Lp>’
+    8 |   if (msg == 1){
+      |              ^
+In file included from /usr/include/c++/9/bits/shared_ptr.h:52,
+                 from /usr/include/c++/9/memory:81,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOLRequest.h:11,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOL.h:11,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/include/drone_com/gnc_functions.hpp:1,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:1:
+/usr/include/c++/9/bits/shared_ptr_base.h:1423:5: note: candidate: ‘template<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::operator==(std::nullptr_t, const std::__shared_ptr<_Tp, _Lp>&)’
+ 1423 |     operator==(nullptr_t, const __shared_ptr<_Tp, _Lp>& __a) noexcept
+      |     ^~~~~~~~
+/usr/include/c++/9/bits/shared_ptr_base.h:1423:5: note:   template argument deduction/substitution failed:
+/home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:8:14: note:   mismatched types ‘const std::__shared_ptr<_Tp, _Lp>’ and ‘int’
+    8 |   if (msg == 1){
+      |              ^
+In file included from /usr/include/c++/9/memory:81,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOLRequest.h:11,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOL.h:11,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/include/drone_com/gnc_functions.hpp:1,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:1:
+/usr/include/c++/9/bits/shared_ptr.h:383:5: note: candidate: ‘template<class _Tp, class _Up> bool std::operator==(const std::shared_ptr<_Tp>&, const std::shared_ptr<_Tp>&)’
+  383 |     operator==(const shared_ptr<_Tp>& __a, const shared_ptr<_Up>& __b) noexcept
+      |     ^~~~~~~~
+/usr/include/c++/9/bits/shared_ptr.h:383:5: note:   template argument deduction/substitution failed:
+/home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:8:14: note:   ‘std_msgs::Int16’ {aka ‘std_msgs::Int16_<std::allocator<void> >’} is not derived from ‘const std::shared_ptr<_Tp>’
+    8 |   if (msg == 1){
+      |              ^
+In file included from /usr/include/c++/9/memory:81,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOLRequest.h:11,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOL.h:11,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/include/drone_com/gnc_functions.hpp:1,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:1:
+/usr/include/c++/9/bits/shared_ptr.h:388:5: note: candidate: ‘template<class _Tp> bool std::operator==(const std::shared_ptr<_Tp>&, std::nullptr_t)’
+  388 |     operator==(const shared_ptr<_Tp>& __a, nullptr_t) noexcept
+      |     ^~~~~~~~
+/usr/include/c++/9/bits/shared_ptr.h:388:5: note:   template argument deduction/substitution failed:
+/home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:8:14: note:   ‘std_msgs::Int16’ {aka ‘std_msgs::Int16_<std::allocator<void> >’} is not derived from ‘const std::shared_ptr<_Tp>’
+    8 |   if (msg == 1){
+      |              ^
+In file included from /usr/include/c++/9/memory:81,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOLRequest.h:11,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOL.h:11,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/include/drone_com/gnc_functions.hpp:1,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:1:
+/usr/include/c++/9/bits/shared_ptr.h:393:5: note: candidate: ‘template<class _Tp> bool std::operator==(std::nullptr_t, const std::shared_ptr<_Tp>&)’
+  393 |     operator==(nullptr_t, const shared_ptr<_Tp>& __a) noexcept
+      |     ^~~~~~~~
+/usr/include/c++/9/bits/shared_ptr.h:393:5: note:   template argument deduction/substitution failed:
+/home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:8:14: note:   mismatched types ‘const std::shared_ptr<_Tp>’ and ‘int’
+    8 |   if (msg == 1){
+      |              ^
+In file included from /usr/include/c++/9/bits/ios_base.h:46,
+                 from /usr/include/c++/9/ios:42,
+                 from /usr/include/c++/9/ostream:38,
+                 from /usr/include/c++/9/iostream:39,
+                 from /opt/ros/noetic/include/ros/time.h:54,
+                 from /opt/ros/noetic/include/ros/serialization.h:34,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOLRequest.h:14,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOL.h:11,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/include/drone_com/gnc_functions.hpp:1,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:1:
+/usr/include/c++/9/system_error:292:3: note: candidate: ‘bool std::operator==(const std::error_code&, const std::error_code&)’
+  292 |   operator==(const error_code& __lhs, const error_code& __rhs) noexcept
+      |   ^~~~~~~~
+/usr/include/c++/9/system_error:292:32: note:   no known conversion for argument 1 from ‘std_msgs::Int16’ {aka ‘std_msgs::Int16_<std::allocator<void> >’} to ‘const std::error_code&’
+  292 |   operator==(const error_code& __lhs, const error_code& __rhs) noexcept
+      |              ~~~~~~~~~~~~~~~~~~^~~~~
+/usr/include/c++/9/system_error:297:3: note: candidate: ‘bool std::operator==(const std::error_code&, const std::error_condition&)’
+  297 |   operator==(const error_code& __lhs, const error_condition& __rhs) noexcept
+      |   ^~~~~~~~
+/usr/include/c++/9/system_error:297:32: note:   no known conversion for argument 1 from ‘std_msgs::Int16’ {aka ‘std_msgs::Int16_<std::allocator<void> >’} to ‘const std::error_code&’
+  297 |   operator==(const error_code& __lhs, const error_condition& __rhs) noexcept
+      |              ~~~~~~~~~~~~~~~~~~^~~~~
+/usr/include/c++/9/system_error:304:3: note: candidate: ‘bool std::operator==(const std::error_condition&, const std::error_code&)’
+  304 |   operator==(const error_condition& __lhs, const error_code& __rhs) noexcept
+      |   ^~~~~~~~
+/usr/include/c++/9/system_error:304:37: note:   no known conversion for argument 1 from ‘std_msgs::Int16’ {aka ‘std_msgs::Int16_<std::allocator<void> >’} to ‘const std::error_condition&’
+  304 |   operator==(const error_condition& __lhs, const error_code& __rhs) noexcept
+      |              ~~~~~~~~~~~~~~~~~~~~~~~^~~~~
+/usr/include/c++/9/system_error:311:3: note: candidate: ‘bool std::operator==(const std::error_condition&, const std::error_condition&)’
+  311 |   operator==(const error_condition& __lhs,
+      |   ^~~~~~~~
+/usr/include/c++/9/system_error:311:37: note:   no known conversion for argument 1 from ‘std_msgs::Int16’ {aka ‘std_msgs::Int16_<std::allocator<void> >’} to ‘const std::error_condition&’
+  311 |   operator==(const error_condition& __lhs,
+      |              ~~~~~~~~~~~~~~~~~~~~~~~^~~~~
+In file included from /usr/include/c++/9/bits/locale_facets.h:48,
+                 from /usr/include/c++/9/bits/basic_ios.h:37,
+                 from /usr/include/c++/9/ios:44,
+                 from /usr/include/c++/9/ostream:38,
+                 from /usr/include/c++/9/iostream:39,
+                 from /opt/ros/noetic/include/ros/time.h:54,
+                 from /opt/ros/noetic/include/ros/serialization.h:34,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOLRequest.h:14,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOL.h:11,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/include/drone_com/gnc_functions.hpp:1,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:1:
+/usr/include/c++/9/bits/streambuf_iterator.h:208:5: note: candidate: ‘template<class _CharT, class _Traits> bool std::operator==(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)’
+  208 |     operator==(const istreambuf_iterator<_CharT, _Traits>& __a,
+      |     ^~~~~~~~
+/usr/include/c++/9/bits/streambuf_iterator.h:208:5: note:   template argument deduction/substitution failed:
+/home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:8:14: note:   ‘std_msgs::Int16’ {aka ‘std_msgs::Int16_<std::allocator<void> >’} is not derived from ‘const std::istreambuf_iterator<_CharT, _Traits>’
+    8 |   if (msg == 1){
+      |              ^
+In file included from /usr/include/boost/config/no_tr1/complex.hpp:21,
+                 from /usr/include/boost/math/policies/error_handling.hpp:17,
+                 from /usr/include/boost/math/special_functions/round.hpp:14,
+                 from /opt/ros/noetic/include/ros/time.h:58,
+                 from /opt/ros/noetic/include/ros/serialization.h:34,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOLRequest.h:14,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOL.h:11,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/include/drone_com/gnc_functions.hpp:1,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:1:
+/usr/include/c++/9/complex:463:5: note: candidate: ‘template<class _Tp> constexpr bool std::operator==(const std::complex<_Tp>&, const std::complex<_Tp>&)’
+  463 |     operator==(const complex<_Tp>& __x, const complex<_Tp>& __y)
+      |     ^~~~~~~~
+/usr/include/c++/9/complex:463:5: note:   template argument deduction/substitution failed:
+/home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:8:14: note:   ‘std_msgs::Int16’ {aka ‘std_msgs::Int16_<std::allocator<void> >’} is not derived from ‘const std::complex<_Tp>’
+    8 |   if (msg == 1){
+      |              ^
+In file included from /usr/include/boost/config/no_tr1/complex.hpp:21,
+                 from /usr/include/boost/math/policies/error_handling.hpp:17,
+                 from /usr/include/boost/math/special_functions/round.hpp:14,
+                 from /opt/ros/noetic/include/ros/time.h:58,
+                 from /opt/ros/noetic/include/ros/serialization.h:34,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOLRequest.h:14,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOL.h:11,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/include/drone_com/gnc_functions.hpp:1,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:1:
+/usr/include/c++/9/complex:468:5: note: candidate: ‘template<class _Tp> constexpr bool std::operator==(const std::complex<_Tp>&, const _Tp&)’
+  468 |     operator==(const complex<_Tp>& __x, const _Tp& __y)
+      |     ^~~~~~~~
+/usr/include/c++/9/complex:468:5: note:   template argument deduction/substitution failed:
+/home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:8:14: note:   ‘std_msgs::Int16’ {aka ‘std_msgs::Int16_<std::allocator<void> >’} is not derived from ‘const std::complex<_Tp>’
+    8 |   if (msg == 1){
+      |              ^
+In file included from /usr/include/boost/config/no_tr1/complex.hpp:21,
+                 from /usr/include/boost/math/policies/error_handling.hpp:17,
+                 from /usr/include/boost/math/special_functions/round.hpp:14,
+                 from /opt/ros/noetic/include/ros/time.h:58,
+                 from /opt/ros/noetic/include/ros/serialization.h:34,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOLRequest.h:14,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOL.h:11,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/include/drone_com/gnc_functions.hpp:1,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:1:
+/usr/include/c++/9/complex:473:5: note: candidate: ‘template<class _Tp> constexpr bool std::operator==(const _Tp&, const std::complex<_Tp>&)’
+  473 |     operator==(const _Tp& __x, const complex<_Tp>& __y)
+      |     ^~~~~~~~
+/usr/include/c++/9/complex:473:5: note:   template argument deduction/substitution failed:
+/home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:8:14: note:   mismatched types ‘const std::complex<_Tp>’ and ‘int’
+    8 |   if (msg == 1){
+      |              ^
+In file included from /usr/include/c++/9/functional:59,
+                 from /usr/include/boost/smart_ptr/detail/shared_count.hpp:39,
+                 from /usr/include/boost/smart_ptr/shared_ptr.hpp:28,
+                 from /usr/include/boost/smart_ptr/shared_array.hpp:24,
+                 from /usr/include/boost/shared_array.hpp:17,
+                 from /opt/ros/noetic/include/ros/serialized_message.h:33,
+                 from /opt/ros/noetic/include/ros/serialization.h:36,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOLRequest.h:14,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOL.h:11,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/include/drone_com/gnc_functions.hpp:1,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:1:
+/usr/include/c++/9/bits/std_function.h:746:5: note: candidate: ‘template<class _Res, class ... _Args> bool std::operator==(const std::function<_Res(_ArgTypes ...)>&, std::nullptr_t)’
+  746 |     operator==(const function<_Res(_Args...)>& __f, nullptr_t) noexcept
+      |     ^~~~~~~~
+/usr/include/c++/9/bits/std_function.h:746:5: note:   template argument deduction/substitution failed:
+/home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:8:14: note:   ‘std_msgs::Int16’ {aka ‘std_msgs::Int16_<std::allocator<void> >’} is not derived from ‘const std::function<_Res(_ArgTypes ...)>’
+    8 |   if (msg == 1){
+      |              ^
+In file included from /usr/include/c++/9/functional:59,
+                 from /usr/include/boost/smart_ptr/detail/shared_count.hpp:39,
+                 from /usr/include/boost/smart_ptr/shared_ptr.hpp:28,
+                 from /usr/include/boost/smart_ptr/shared_array.hpp:24,
+                 from /usr/include/boost/shared_array.hpp:17,
+                 from /opt/ros/noetic/include/ros/serialized_message.h:33,
+                 from /opt/ros/noetic/include/ros/serialization.h:36,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOLRequest.h:14,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOL.h:11,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/include/drone_com/gnc_functions.hpp:1,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:1:
+/usr/include/c++/9/bits/std_function.h:752:5: note: candidate: ‘template<class _Res, class ... _Args> bool std::operator==(std::nullptr_t, const std::function<_Res(_ArgTypes ...)>&)’
+  752 |     operator==(nullptr_t, const function<_Res(_Args...)>& __f) noexcept
+      |     ^~~~~~~~
+/usr/include/c++/9/bits/std_function.h:752:5: note:   template argument deduction/substitution failed:
+/home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:8:14: note:   mismatched types ‘const std::function<_Res(_ArgTypes ...)>’ and ‘int’
+    8 |   if (msg == 1){
+      |              ^
+In file included from /usr/include/c++/9/map:61,
+                 from /opt/ros/noetic/include/ros/datatypes.h:33,
+                 from /opt/ros/noetic/include/ros/serialization.h:40,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOLRequest.h:14,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOL.h:11,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/include/drone_com/gnc_functions.hpp:1,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:1:
+/usr/include/c++/9/bits/stl_map.h:1455:5: note: candidate: ‘template<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator==(const std::map<_Key, _Tp, _Compare, _Alloc>&, const std::map<_Key, _Tp, _Compare, _Alloc>&)’
+ 1455 |     operator==(const map<_Key, _Tp, _Compare, _Alloc>& __x,
+      |     ^~~~~~~~
+/usr/include/c++/9/bits/stl_map.h:1455:5: note:   template argument deduction/substitution failed:
+/home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:8:14: note:   ‘std_msgs::Int16’ {aka ‘std_msgs::Int16_<std::allocator<void> >’} is not derived from ‘const std::map<_Key, _Tp, _Compare, _Alloc>’
+    8 |   if (msg == 1){
+      |              ^
+In file included from /usr/include/c++/9/map:62,
+                 from /opt/ros/noetic/include/ros/datatypes.h:33,
+                 from /opt/ros/noetic/include/ros/serialization.h:40,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOLRequest.h:14,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOL.h:11,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/include/drone_com/gnc_functions.hpp:1,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:1:
+/usr/include/c++/9/bits/stl_multimap.h:1119:5: note: candidate: ‘template<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator==(const std::multimap<_Key, _Tp, _Compare, _Alloc>&, const std::multimap<_Key, _Tp, _Compare, _Alloc>&)’
+ 1119 |     operator==(const multimap<_Key, _Tp, _Compare, _Alloc>& __x,
+      |     ^~~~~~~~
+/usr/include/c++/9/bits/stl_multimap.h:1119:5: note:   template argument deduction/substitution failed:
+/home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:8:14: note:   ‘std_msgs::Int16’ {aka ‘std_msgs::Int16_<std::allocator<void> >’} is not derived from ‘const std::multimap<_Key, _Tp, _Compare, _Alloc>’
+    8 |   if (msg == 1){
+      |              ^
+In file included from /usr/include/c++/9/set:61,
+                 from /opt/ros/noetic/include/ros/datatypes.h:34,
+                 from /opt/ros/noetic/include/ros/serialization.h:40,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOLRequest.h:14,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOL.h:11,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/include/drone_com/gnc_functions.hpp:1,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:1:
+/usr/include/c++/9/bits/stl_set.h:979:5: note: candidate: ‘template<class _Key, class _Compare, class _Alloc> bool std::operator==(const std::set<_Key, _Compare, _Alloc>&, const std::set<_Key, _Compare, _Alloc>&)’
+  979 |     operator==(const set<_Key, _Compare, _Alloc>& __x,
+      |     ^~~~~~~~
+/usr/include/c++/9/bits/stl_set.h:979:5: note:   template argument deduction/substitution failed:
+/home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:8:14: note:   ‘std_msgs::Int16’ {aka ‘std_msgs::Int16_<std::allocator<void> >’} is not derived from ‘const std::set<_Key, _Compare, _Alloc>’
+    8 |   if (msg == 1){
+      |              ^
+In file included from /usr/include/c++/9/set:62,
+                 from /opt/ros/noetic/include/ros/datatypes.h:34,
+                 from /opt/ros/noetic/include/ros/serialization.h:40,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOLRequest.h:14,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOL.h:11,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/include/drone_com/gnc_functions.hpp:1,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:1:
+/usr/include/c++/9/bits/stl_multiset.h:964:5: note: candidate: ‘template<class _Key, class _Compare, class _Alloc> bool std::operator==(const std::multiset<_Key, _Compare, _Alloc>&, const std::multiset<_Key, _Compare, _Alloc>&)’
+  964 |     operator==(const multiset<_Key, _Compare, _Alloc>& __x,
+      |     ^~~~~~~~
+/usr/include/c++/9/bits/stl_multiset.h:964:5: note:   template argument deduction/substitution failed:
+/home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:8:14: note:   ‘std_msgs::Int16’ {aka ‘std_msgs::Int16_<std::allocator<void> >’} is not derived from ‘const std::multiset<_Key, _Compare, _Alloc>’
+    8 |   if (msg == 1){
+      |              ^
+In file included from /usr/include/c++/9/list:63,
+                 from /opt/ros/noetic/include/ros/datatypes.h:35,
+                 from /opt/ros/noetic/include/ros/serialization.h:40,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOLRequest.h:14,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOL.h:11,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/include/drone_com/gnc_functions.hpp:1,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:1:
+/usr/include/c++/9/bits/stl_list.h:1991:5: note: candidate: ‘template<class _Tp, class _Alloc> bool std::operator==(const std::__cxx11::list<_Tp, _Alloc>&, const std::__cxx11::list<_Tp, _Alloc>&)’
+ 1991 |     operator==(const list<_Tp, _Alloc>& __x, const list<_Tp, _Alloc>& __y)
+      |     ^~~~~~~~
+/usr/include/c++/9/bits/stl_list.h:1991:5: note:   template argument deduction/substitution failed:
+/home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:8:14: note:   ‘std_msgs::Int16’ {aka ‘std_msgs::Int16_<std::allocator<void> >’} is not derived from ‘const std::__cxx11::list<_Tp, _Alloc>’
+    8 |   if (msg == 1){
+      |              ^
+In file included from /usr/include/c++/9/iterator:66,
+                 from /usr/include/boost/detail/iterator.hpp:11,
+                 from /usr/include/boost/array.hpp:50,
+                 from /opt/ros/noetic/include/ros/serialization.h:46,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOLRequest.h:14,
+                 from /home/skanda/catkin_ws/devel/include/mavros_msgs/CommandTOL.h:11,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/include/drone_com/gnc_functions.hpp:1,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:1:
+/usr/include/c++/9/bits/stream_iterator.h:134:5: note: candidate: ‘template<class _Tp, class _CharT, class _Traits, class _Dist> bool std::operator==(const std::istream_iterator<_Tp, _CharT, _Traits, _Dist>&, const std::istream_iterator<_Tp, _CharT, _Traits, _Dist>&)’
+  134 |     operator==(const istream_iterator<_Tp, _CharT, _Traits, _Dist>& __x,
+      |     ^~~~~~~~
+/usr/include/c++/9/bits/stream_iterator.h:134:5: note:   template argument deduction/substitution failed:
+/home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:8:14: note:   ‘std_msgs::Int16’ {aka ‘std_msgs::Int16_<std::allocator<void> >’} is not derived from ‘const std::istream_iterator<_Tp, _CharT, _Traits, _Dist>’
+    8 |   if (msg == 1){
+      |              ^
+/home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp: At global scope:
+/home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:37:1: error: expected declaration before ‘}’ token
+   37 | }
+      | ^
+In file included from /opt/ros/noetic/include/ros/subscription_callback_helper.h:35,
+                 from /opt/ros/noetic/include/ros/subscriber.h:33,
+                 from /opt/ros/noetic/include/ros/node_handle.h:33,
+                 from /opt/ros/noetic/include/ros/ros.h:45,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/include/drone_com/gnc_functions.hpp:14,
+                 from /home/skanda/Documents/workspace/gesturePub/src/drone_com/src/square.cpp:1:
+/opt/ros/noetic/include/ros/parameter_adapter.h: In instantiation of ‘static ros::ParameterAdapter<M>::Parameter ros::ParameterAdapter<M>::getParameter(const Event&) [with M = std_msgs::Int16_<std::allocator<void> >&; ros::ParameterAdapter<M>::Parameter = std_msgs::Int16_<std::allocator<void> >&; ros::ParameterAdapter<M>::Event = ros::MessageEvent<const std_msgs::Int16_<std::allocator<void> > >; typename boost::remove_reference<typename boost::remove_const<M>::type>::type = std_msgs::Int16_<std::allocator<void> >]’:
+/opt/ros/noetic/include/ros/subscription_callback_helper.h:144:48:   required from ‘void ros::SubscriptionCallbackHelperT<P, Enabled>::call(ros::SubscriptionCallbackHelperCallParams&) [with P = std_msgs::Int16_<std::allocator<void> >&; Enabled = void]’
+/opt/ros/noetic/include/ros/subscription_callback_helper.h:141:16:   required from here
+/opt/ros/noetic/include/ros/parameter_adapter.h:78:30: error: binding reference of type ‘ros::ParameterAdapter<std_msgs::Int16_<std::allocator<void> >&>::Parameter’ {aka ‘std_msgs::Int16_<std::allocator<void> >&’} to ‘const std_msgs::Int16_<std::allocator<void> >’ discards qualifiers
+   78 |     return *event.getMessage();
+      |                              ^
+make[2]: *** [CMakeFiles/square.dir/build.make:63: CMakeFiles/square.dir/src/square.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:210: CMakeFiles/square.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
